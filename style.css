@@ -18,13 +18,6 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
-@media (max-width: 100%) { /* Adjust the max-width as needed for your design */
-    body {
-        background-attachment: scroll; /* Change to scroll for mobile devices */
-    }
-}
-
-
 h1 {
     background-color:#111827;
     color:#fde68a; 
