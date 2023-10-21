@@ -6,14 +6,18 @@ html, body {
 }
 
 body {
+    /* Your existing body styles */
     background-image: url('images/background.jpg');
-    background-size: cover; /* Cover the entire viewport */
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     min-width: 100%;
     min-height: 100%;
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
 
 
 h1 {
