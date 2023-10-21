@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title >Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="library.js"></script>
+</head>
+
+<body>
+  <center> <img class="logo1" src="images/library icon.png"></center><br>
+  <center><h1>Library Management System</h1></center>
+    <br>
+    <div class="content-container">
+    <img class="logo" src="images/book.png">
+    <h2>Book Management</h2><br><br>
+    
+    <label for="bookTitle">Title:</label>
+    <input type="text" id="bookTitle">
+    <label for="bookAuthor">Author:</label>
+    <input type="text" id="bookAuthor">
+    <button class="button-27" onclick="addBook()">Add Book</button><br>
+    <br>
+    <div class="line"></div><br>
+
+    <img class="logo" src="images/user.png">
+    <h2>User Management</h2><br><br>
+    <label for="userName">Name:</label>
+    <input type="text" id="userName">
+    <button class="button-27" onclick="addUser()">Add User</button><br><br>
+
+    <div class="line"></div><br>
+    
+    <img class="logo" src="images/borrow.png">
+    <h2>Borrow/Return Books</h2><br><br>
+    <label for="userID">User ID:</label>
+    <input type="text" id="userID">
+    <label for="bookID">Book ID:</label>
+    <input type="text" id="bookID">
+    <button class="button-27" onclick="borrowBook()">Borrow Book</button>
+    <button class="button-27" onclick="returnBook()">Return Book</button><br>
+  </div>
+  <br>
+  <br>
+    <h2 class="sub-h2">Book List</h2>
+    <ul id="bookList">
+
+    </ul>
+
+    <h2 class="sub-h2">User List</h2>
+    <ul id="userList">
+
+    </ul>
+
+    <h2 class="sub-h2">Borrowed Books</h2>
+    <ul id="borrowedBooksList">
+
+    </ul>
+    
+</body>
+
+</html> 
+

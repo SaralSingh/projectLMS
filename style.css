@@ -1,0 +1,198 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+   
+}
+
+h1 {
+    background-color:#111827;
+    color:#fde68a; 
+    padding: 3px; 
+
+    display: inline; 
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2{
+    color: #fde68a;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#374151;
+    display: inline; 
+    border-radius: 10px;
+   padding: 3px;
+   font-size: 28px;
+    
+}
+
+label{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    
+    background-color: #f7f7f7; /* Background color for each book item */
+    border: 1px solid #ccc; /* Add a border around each book item */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 5px 0; /* Add vertical margin to separate book items */
+    padding: 1px; /* Add padding for spacing within each book item */
+}
+
+.logo1{
+    width: 80px;
+    height: 80px;
+    border-color: #000000;
+    border-radius: 40px;
+    padding: 2px;
+    background-color: #000000;
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.sub-h2{
+    color: lightgoldenrodyellow;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#1e293b;
+    display: inline;
+    border-radius: 3px;
+    padding: 2px;
+    margin-right: 10px; /* Add right margin to create space between heading and image */
+}
+
+/* Style for images */
+img.logo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle; /* Align the images vertically in the middle of the line */
+    margin-right: 10px; /* Add right margin to create space between image and heading */
+}
+
+/* Add this CSS to your style.css file */
+
+/* Style for book list items */
+ul#bookList li {
+    background-color:#6ee7b7; /* Background color for each book item */
+    border: 1px solid #ccc; /* Add a border around each book item */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 10px 0; /* Add vertical margin to separate book items */
+    padding: 10px; /* Add padding for spacing within each book item */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Style for book list item text */
+ul#bookList li p {
+    font-size: 18px; /* Set font size */
+    color: #333; /* Text color */
+    margin: 5px 0; /* Add vertical margin for spacing within each item */
+}
+
+ul#userList li {
+    background-color: #65e9ee; /* Background color for each book item */
+    border: 1px solid #ccc; /* Add a border around each book item */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 10px 0; /* Add vertical margin to separate book items */
+    padding: 10px; /* Add padding for spacing within each book item */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Style for book list item text */
+ul#userList li p {
+    font-size: 18px; /* Set font size */
+    color: #333; /* Text color */
+    margin: 5px 0; /* Add vertical margin for spacing within each item */
+}
+
+ul#borrowedBooksList li {
+    background-color: #fca5a5; /* Background color for each book item */
+    border: 1px solid #ccc; /* Add a border around each book item */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 10px 0; /* Add vertical margin to separate book items */
+    padding: 10px; /* Add padding for spacing within each book item */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Style for book list item text */
+ul#borrowedBooksList li p {
+    font-size: 18px; /* Set font size */
+    color: #333; /* Text color */
+    margin: 5px 0; /* Add vertical margin for spacing within each item */
+}
+
+
+/* Adjust the content container styles */
+.content-container {
+    background: rgba(0, 0, 0, 0.4); /* Adjust the opacity as needed */
+    padding: 20px; /* Reduce the padding for a more compact look */
+    border-radius: 5px; /* Add rounded corners to the container */
+    margin-left: 10px; /* Create space on the left side for the black color */
+    text-align: left; /* Align content to the left within the container */
+    max-width: 800px; /* Limit the maximum width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Adjust input styles to prevent overflow */
+input {
+    font-size: 19px;
+    width: 100%; /* Ensure the input takes the full width of its container */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.line{
+    background-color: #131212;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.button-27 {
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    margin: 20px 2px;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  background-color: #222222;
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+  
+  
