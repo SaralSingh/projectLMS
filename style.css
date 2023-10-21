@@ -1,21 +1,28 @@
-/* html, body {
+ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-} */
+} 
 
 body {
-    /* Your existing body styles */
     background-image: url('images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; /* Keep the background fixed */
     min-width: 100%;
-    min-height: auto;
+    min-height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
+/* For screens with a maximum width of 1280px and a maximum height of 720px */
+@media (max-width: 1280px) and (max-height: 720px) {
+    body {
+        background-attachment: scroll; /* Use 'scroll' instead of 'fixed' for screens of this size */
+    }
+}
+
 
 h1 {
     background-color:#111827;
