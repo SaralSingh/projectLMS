@@ -1,11 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+
 body {
     background-image: url('images/background.jpg');
-    background-size: cover;
+    background-size: cover; /* Cover the entire viewport */
     background-repeat: no-repeat;
     min-width: 100%;
     min-height: 100%;
-   
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
 }
+
 
 h1 {
     background-color:#111827;
@@ -159,7 +168,7 @@ input {
 }
 
 .button-27 {
-    background-color: #000000;
+    background-color: #64748b;
     border: 2px solid #1A1A1A;
     border-radius: 8px;
     box-sizing: border-box;
