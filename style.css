@@ -1,8 +1,8 @@
 body{
     background-image: url('images/background.jpg');
-    max-width: 100%;
-    max-height: auto;
+    height: 100vh;
     background-size: cover;
+    background-position: center;
 }
 
 h1 {
