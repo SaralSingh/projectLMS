@@ -1,4 +1,5 @@
 body{
+
     background-image: url('images/background.jpg');
     height: 100vh;
     background-size: cover;
@@ -196,5 +197,4 @@ input {
   box-shadow: none;
   transform: translateY(0);
 }
-  
   
