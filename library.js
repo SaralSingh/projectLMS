@@ -3,6 +3,35 @@ let books = [];
 let users = [];
 let borrowedBooks = [];
 
+document.onkeypress = function (event) {  
+event = (event || window.event);  
+if (event.keyCode == 123) {  
+return false;  
+}  
+}  
+document.onmousedown = function (event) {  
+event = (event || window.event);  
+if (event.keyCode == 123) {  
+return false;  
+}  
+}  
+document.onkeydown = function (event) {  
+event = (event || window.event);  
+if (event.keyCode == 123) {  
+return false;  
+}  
+}  
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'I') {
+                e.preventDefault();
+            }
+        });
+
 function addBook() {
     const title = document.getElementById('bookTitle').value;
     const author = document.getElementById('bookAuthor').value;
